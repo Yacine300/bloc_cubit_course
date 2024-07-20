@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
             appBarStyle: FlexAppBarStyle.scaffoldBackground,
             scheme: FlexScheme.damask,
             scaffoldBackground: const Color.fromARGB(255, 16, 0, 104)),
-        home: ProductListScreen(),
+        home: const ProductListScreen(),
       ),
     );
   }

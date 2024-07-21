@@ -2,6 +2,8 @@
 
 Bloc (Business Logic Component) is a powerful state management solution in Flutter was lunched as on of the first solution as a part of flutter ecoSystem. Initially introduced by Google as a `DESIGN PATTERN`, it aims to manage business logic and state in a clean, scalable, and testable way. This pattern helps separate the presentation layer from the business logic, making the code more maintainable and reusable.
 
+<img src="https://github.com/Yacine300/game_app/blob/main/assets/images/cover.png" alt="BlocApp" />
+
 ## Memory and State Management
 
 In Flutter, state management is crucial to ensure that the application's user interface (UI) responds efficiently to user interactions and data changes. Bloc achieves this through the use of `STREAMS`, which are a core part of Dart's asynchronous programming model.

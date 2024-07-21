@@ -476,5 +476,9 @@ BlocSelector<ProductBloc, ProductState, List<Product>>(
     ```
 
 ## Screenshots : 
+<p align="center">
+  <img src="https://github.com/Yacine300/bloc_cubit_course/blob/main/1.png" width="250" alt="Image 1">
+  <img src="https://github.com/Yacine300/bloc_cubit_course/blob/main/2.png" width="250" alt="Image 2">
+  <img src="https://github.com/Yacine300/bloc_cubit_course/blob/main/3.png" width="250" alt="Image 3">
+</p>
 
-will be Avaible soon.......

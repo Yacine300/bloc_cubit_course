@@ -384,7 +384,7 @@ MultiBlocListener(
 ### 6. **BlocSelector**
 BlocSelector rebuilds based on a specific part of the state of a Bloc or Cubit. It optimizes performance by selecting only the parts of the state that the widget cares about.
 
-# Note : the BlocSelector only care about the sub state , he can triged change only for them. Even if the rest was changed he wouldn't be able to do so. 
+## Note : the BlocSelector only care about the sub state , he can triged change only for them. Even if the rest was changed he wouldn't be able to do display changes ( No rebuild ) . 
 
 #### Usage:
 ```dart
@@ -431,8 +431,7 @@ BlocSelector<ProductBloc, ProductState, List<Product>>(
 - Provides both a builder function and a listener function.
 - Useful for handling both state-based UI updates and side effects (e.g., showing a snackbar).
 
-# Be curful : you need to use BlocConsumer if at once you need to listen and update widget only with a same state
-# if is not the case , make it a mixed nested between BlocListender that take as a child a BlocBuilder.
+## Be curful : you need to use BlocConsumer if at once you need to listen and update widget only with a same state .If is not the case , make it a mixed nested between BlocListender that take as a child a BlocBuilder.
 
 ### BlocSelector vs BlocBuilder
 
